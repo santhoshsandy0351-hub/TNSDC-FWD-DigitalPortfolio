@@ -1,0 +1,129 @@
+body {
+
+  margin: 0;
+
+  font-family: Arial, sans-serif;
+
+  background: linear-gradient(135deg, #ffecd2, #fcb69f);
+
+  color: #333;
+
+}
+
+.cursive {
+
+  font-family: 'Brush Script MT', cursive;
+
+  font-size: 2em;
+
+  color: #d6336c;
+
+}
+
+header {
+
+  background: #ff6f61;
+
+  color: white;
+
+  padding: 20px;
+
+  text-align: center;
+
+}
+
+nav ul {
+
+  list-style: none;
+
+  padding: 0;
+
+}
+
+nav ul li {
+
+  display: inline;
+
+  margin: 0 15px;
+
+}
+
+nav ul li a {
+
+  text-decoration: none;
+
+  color: white;
+
+  font-weight: bold;
+
+}
+
+section {
+
+  padding: 50px;
+
+  text-align: center;
+
+}
+
+.project-card {
+
+  background: white;
+
+  margin: 15px auto;
+
+  padding: 20px;
+
+  border-radius: 15px;
+
+  width: 60%;
+
+  box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+
+}
+
+form input, form textarea, form button {
+
+  display: block;
+
+  margin: 10px auto;
+
+  width: 60%;
+
+  padding: 10px;
+
+  border: none;
+
+  border-radius: 8px;
+
+}
+
+form button {
+
+  background: #ff6f61;
+
+  color: white;
+
+  font-weight: bold;
+
+  cursor: pointer;
+
+}
+
+form button:hover {
+
+  background: #e63946;
+
+}
+
+footer {
+
+  background: #333;
+
+  color: white;
+
+  text-align: center;
+
+  padding: 15px;
+
+}
